@@ -104,6 +104,27 @@ public class EVA3_1_ORDENAMIENTOS {
                 }
             }
             arreglo[insP] = temp;
-        }
     }
+    }
+    
+    //BUBBLE SORT NO LO VAMOS A PROGRAMAR
+    //QUICKSORT PUBLICO
+    
+    public static void quickSort(int[] arreglo){
+        quickSortRec(arreglo, 0, arreglo.length - 1); 
+        
+    }
+    
+    private static void quickSortRec(int[] arreglo,int ini,int fin){
+     // pivote -> posición
+     // Dos indices
+     // ind_grand -> busca los mayores al pivote
+     // ind peq -> busca los menores al pivote
+     // si se encuentran  valores, se intercambian
+     // si se cruzan, se intercambia el pivote con ind_peq
+     //quicksort a cada lado del pivote
+    
+    
+    }
+    
 }
